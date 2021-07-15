@@ -1,0 +1,56 @@
+body{
+    padding: 10px;
+    background-color: rgb(192, 230, 192);
+    margin: 0;
+    height: calc(100vh - 20px);
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+}
+
+.navbar{
+    padding: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.start{
+    background: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navbar span{
+    font-size: 1.3rem;
+    color: black;
+}
+
+.grid{
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+    box-shadow: 5px 2px 4px 0px rgba(0,0,0,0.50) inset;
+}
+
+.snake{
+    background-color: black;
+}
+
+.apple{
+    background-color: tomato;
+}
